@@ -19,7 +19,7 @@ about:
   enable : true
   title : "Matoric is a multilingual company"
   content : " and with us, connecting companies from different parts of the world have never been easier. Our services can include transport, travel, communication, construction services, insurance, financial advising, consulting computer and information services, and others."
-  image : "images/about.png"
+  image : "images/multilingual.png"
 
 
 ###################### Call to action ########################
@@ -27,7 +27,7 @@ cta:
   enable : true
   title : "Our special pride is in our collaboration with the best companies from the naval sector and sea assistance."
   content : ""
-  image : "images/cta.png"
+  image : "images/naval.png"
   overlayImage : "images/cta-overlay.png"
   # button:
   #   label : "All Products"
@@ -38,26 +38,26 @@ material:
   enable : true
   title : "The needs of our clients"
   subtitle : "We always do our very best to meet or exceed the needs of our clients. Feel free to contact us with the information below if you would like to hear more about our services. We used the pandemic situation to bring up our online communication to the highest level. You can talk face to face with one of our representatives, regardless of your geographic location. We will make sure that you never wait days or weeks for the appointment, as we handle our clients' requests as quickly as possible."
-  materialItem:
-    # material item loop
-    - title : "Matcha Seeds"
-      image : "images/material/material-1.png"
-      content : "Lorem ipsum dolor sit amet,be consetetur sadipscing elitr, sed diam nonumy eirmod tem"
+  # materialItem:
+  #   # material item loop
+  #   - title : "Matcha Seeds"
+  #     image : "images/material/material-1.png"
+  #     content : "Lorem ipsum dolor sit amet,be consetetur sadipscing elitr, sed diam nonumy eirmod tem"
       
-    # material item loop
-    - title : "Aloe Vera"
-      image : "images/material/material-2.png"
-      content : "Lorem ipsum dolor sit amet,be consetetur sadipscing elitr, sed diam nonumy eirmod tem"
+  #   # material item loop
+  #   - title : "Aloe Vera"
+  #     image : "images/material/material-2.png"
+  #     content : "Lorem ipsum dolor sit amet,be consetetur sadipscing elitr, sed diam nonumy eirmod tem"
       
-    # material item loop
-    - title : "Turmeric"
-      image : "images/material/material-3.png"
-      content : "Lorem ipsum dolor sit amet,be consetetur sadipscing elitr, sed diam nonumy eirmod tem"
+  #   # material item loop
+  #   - title : "Turmeric"
+  #     image : "images/material/material-3.png"
+  #     content : "Lorem ipsum dolor sit amet,be consetetur sadipscing elitr, sed diam nonumy eirmod tem"
       
-    # material item loop
-    - title : "Tulshi leaf"
-      image : "images/material/material-4.png"
-      content : "Lorem ipsum dolor sit amet,be consetetur sadipscing elitr, sed diam nonumy eirmod tem"
+  #   # material item loop
+  #   - title : "Tulshi leaf"
+  #     image : "images/material/material-4.png"
+  #     content : "Lorem ipsum dolor sit amet,be consetetur sadipscing elitr, sed diam nonumy eirmod tem"
 
 ########################### Advantage #########################
 advantage:
