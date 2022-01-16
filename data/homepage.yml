@@ -3,7 +3,7 @@ banner:
   enable : true
   title : "We are a start-up company"
   content : "collaborating with independent freelancers with years and decades of experience in the public and private sectors. Our main activity is managing import and export in cross-border trading."
-  image : "images/banner.png"
+  image : "images/import-export.png"
   # button
   button:
     enable : false
