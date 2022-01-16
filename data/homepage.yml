@@ -1,47 +1,43 @@
 ############################ banner ##########################
 banner:
   enable : true
-  title : "Best Beauty Cream For Your Skin"
-  content : "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et
-          dolore magna aliquyam erat, sed dia"
+  title : "We are a start-up company"
+  content : "collaborating with independent freelancers with years and decades of experience in the public and private sectors. Our main activity is managing import and export in cross-border trading."
   image : "images/banner.png"
   # button
   button:
-    enable : true
+    enable : false
     label : "All Products"
     link : "products"
   # demo video
   video:
-    enable : true
+    enable : false
     videoURL : "https://www.youtube.com/embed/wf4F2-9UXUo"
 
 ########################## About ##############################
 about:
   enable : true
-  title : "About Our Product"
-  content : "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et
-          dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet
-          clita kasd gubergren,"
+  title : "Matoric is a multilingual company"
+  content : " and with us, connecting companies from different parts of the world have never been easier. Our services can include transport, travel, communication, construction services, insurance, financial advising, consulting computer and information services, and others."
   image : "images/about.png"
 
 
 ###################### Call to action ########################
 cta:
   enable : true
-  title : "Buy one Get One Free Taba Cream"
-  content : "Available for limited time only. Grab one while you still can!"
+  title : "Our special pride is in our collaboration with the best companies from the naval sector and sea assistance."
+  content : ""
   image : "images/cta.png"
   overlayImage : "images/cta-overlay.png"
-  button:
-    label : "All Products"
-    link : "products"
+  # button:
+  #   label : "All Products"
+  #   link : "products"
 
 ######################## raw material #######################
 material:
   enable : true
-  title : "Ingredients Of Our Products"
-  subtitle : "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et
-          dol."
+  title : "The needs of our clients"
+  subtitle : "We always do our very best to meet or exceed the needs of our clients. Feel free to contact us with the information below if you would like to hear more about our services. We used the pandemic situation to bring up our online communication to the highest level. You can talk face to face with one of our representatives, regardless of your geographic location. We will make sure that you never wait days or weeks for the appointment, as we handle our clients' requests as quickly as possible."
   materialItem:
     # material item loop
     - title : "Matcha Seeds"
@@ -65,7 +61,7 @@ material:
 
 ########################### Advantage #########################
 advantage:
-  enable : true
+  enable : false
   title : "Advantages Of Using <br> Our Product"
   subtitle : "Lorem ipsum dolor sit amet, da decal consetetur<br> sadipscing elitr, sed diam nonumya eirmod"
   image : "images/advantage.png"
@@ -81,7 +77,7 @@ advantage:
 
 ######################## Promo Video ##########################
 video:
-  enable : true
+  enable : false
   title : "How To Use This Product?"
   content : "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et
           dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et."
@@ -91,14 +87,14 @@ video:
 
 ######################## Products #############################
 products:
-  enable : true
+  enable : false
   title : "Products List"
   # product item comes from "content/products"
 
 
 ########################## Testimonial ########################
 testimonial:
-  enable : true
+  enable : false
   title : "What People Are Saying <br> About Our Product"
   testimonialItem:
     # testimonial item loop
