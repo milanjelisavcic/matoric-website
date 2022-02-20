@@ -81,6 +81,9 @@ disqusShortname = ""
 
 #################### default parameters ################################
 [params]
+# favicon
+favicon = "images/favicon.svg"
+# logo
 logo = "images/logo.png"
 home = "Home"
 # Meta data
