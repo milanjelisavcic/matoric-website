@@ -25,7 +25,7 @@ about:
 ###################### Call to action ########################
 cta:
   enable : true
-  title : "Our special pride is in our collaboration with the best companies from the naval sector and sea assistance."
+  title : "Our pride is the collaboration with the best companies from the naval sector"
   content : ""
   image : "images/naval.png"
   overlayImage : "images/cta-overlay.png"
