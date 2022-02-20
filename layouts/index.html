@@ -43,26 +43,6 @@
 {{ end }}
 <!-- /banner -->
 
-<!-- about -->
-{{ if site.Data.homepage.about.enable }}
-{{ with site.Data.homepage.about }}
-<section class="section">
-  <div class="container">
-    <div class="row justify-content-around align-items-center">
-      <div class="col-lg-5 col-md-6">
-        <img class="img-fluid" src="{{ .image | absURL }}" alt="">
-      </div>
-      <div class="col-md-6 col-lg-5">
-        <h2>{{ .title | markdownify }}</h2>
-        <p>{{ .content | markdownify }}</p>
-      </div>
-    </div>
-  </div>
-</section>
-{{ end }}
-{{ end }}
-<!-- /about -->
-
 {{ if site.Data.homepage.cta.enable }}
 {{ partial "cta.html" . }}
 {{ end }}
@@ -96,6 +76,26 @@
 {{ end }}
 {{ end }}
 <!-- /material -->
+
+<!-- about -->
+{{ if site.Data.homepage.about.enable }}
+{{ with site.Data.homepage.about }}
+<section class="section pb-0">
+  <div class="container">
+    <div class="row">
+      <!-- <div class="col-lg-5 col-md-6">
+        <img class="img-fluid" src="{{ .image | absURL }}" alt="">
+      </div> -->
+      <div class="col-lg-6 mx-auto text-center">
+        <h2>{{ .title | markdownify }}</h2>
+        <p>{{ .content | markdownify }}</p>
+      </div>
+    </div>
+  </div>
+</section>
+{{ end }}
+{{ end }}
+<!-- /about -->
 
 <!-- advantage -->
 {{ if site.Data.homepage.advantage.enable }}

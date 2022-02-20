@@ -19,7 +19,7 @@ about:
   enable : true
   title : "Matoric is a multilingual company"
   content : " and with us, connecting companies from different parts of the world have never been easier. Our services can include transport, travel, communication, construction services, insurance, financial advising, consulting computer and information services, and others."
-  image : "images/multilingual.png"
+  image : "" #"images/multilingual.png"
 
 
 ###################### Call to action ########################
