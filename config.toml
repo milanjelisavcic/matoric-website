@@ -91,8 +91,8 @@ description = "This is meta description"
 author = "Themefisher"
 # google map
 gmapAPI = "https://maps.googleapis.com/maps/api/js?key=AIzaSyCcABaamniA6OL5YvYSpB3pFMNrXwXnLwU&libraries=places"
-mapLatitude = "52.34899"
-mapLongitude = "4.83802"
+mapLatitude = "52.3863905"
+mapLongitude = "4.8350667"
 mapMarker = "images/marker.png"
 # Google Analitycs
 googleAnalitycsID = "" # Your ID
